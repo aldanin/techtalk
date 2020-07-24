@@ -1,0 +1,3 @@
+https://github.com/aldanin/svelte-seed.git
+
+https://github.com/aldanin/nicetoknow.git
