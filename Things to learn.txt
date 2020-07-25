@@ -1,0 +1,8 @@
+Things to mension:
+Lifecycle
+
+
+
+Tnings to learn:
+Slots
+Transitions (animation)

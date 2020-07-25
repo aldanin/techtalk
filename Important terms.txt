@@ -8,3 +8,5 @@ firebase
 
 phrase/ sentence
 
+virtual dom
+
