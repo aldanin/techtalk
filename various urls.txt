@@ -1,3 +1,10 @@
 https://github.com/aldanin/svelte-seed.git
 
 https://github.com/aldanin/nicetoknow.git
+
+https://svelte-community.netlify.app/code/
+
+extensions/templates:
+https://marketplace.visualstudio.com/items?itemName=bam.vscode-file-templates
+
+Windows : %USERPROFILE%\.vscode\extensions\bam.vscode-file-templates-{VERSION}\templates
