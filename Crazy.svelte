@@ -38,8 +38,14 @@
 </style>
 
 
-{#if visible} 
-	<div class="centered" in:spin="{{duration: 8000}}" out:fade>
-        <slot></slot>
-	</div>
-{/if} 
+{#if goCrazy}
+  {#if visible}
+    <div class="centered" in:spin={{ duration: 8000 }} out:fade>
+      <slot />
+    </div>
+  {/if}
+{:else}
+  <div class="centered">
+    <slot />
+  </div>
+{/if}  
