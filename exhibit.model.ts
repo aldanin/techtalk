@@ -5,7 +5,7 @@ export interface Stamp {
     country: string,
 }
 
-export type Exhibit = {
+export type ExhibitModel = {
     item: Stamp,
     id: string,
     catPrice: number,

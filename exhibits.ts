@@ -1,6 +1,6 @@
-import { Exhibit } from "./exhibit.model";
+import { ExhibitModel } from "./exhibit.model";
 
-const exhibits: Exhibit[] = [
+const exhibitsArray: ExhibitModel[] = [
     {
         item: {
             img: 'penny-black.jpg',
@@ -102,5 +102,3 @@ const exhibits: Exhibit[] = [
         isOnSale: false,
     }
 ]
-
-export default exhibits;
