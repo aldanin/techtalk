@@ -2,7 +2,18 @@
 	import { fade } from 'svelte/transition';
 	import { elasticOut } from 'svelte/easing';
 
-    export let visible = true;
+    let visible = true;
+    export let goCrazy = false;
+
+    $: {
+        if (goCrazy) {
+            visible = false;
+
+            setTimeout(()=> {
+                visible = true
+            },100)
+        }
+    }
 
 	function spin(node, { duration }) {
 		return {
