@@ -1,6 +1,6 @@
 import { ExhibitModel } from "./exhibit.model";
 
-const exhibitsArray: ExhibitModel[] = [
+export const exhibitsArray: ExhibitModel[] = [
     {
         item: {
             img: 'penny-black.jpg',
